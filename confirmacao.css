@@ -1,0 +1,15 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3DA535;
+    background-color: #ffffff;
+    height: 100vh;
+    margin: 0;
+    height: 100%;
+}
+.confirmacao{
+     
+    width: 1800px;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, #c872da, #7b4186,#542B5C);
+    justify-content: center;
+}

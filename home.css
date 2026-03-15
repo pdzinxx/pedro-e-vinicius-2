@@ -1,0 +1,147 @@
+/*seletor universal*/
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*seletor de tag*/
+body{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7d774c;
+    background-color: #ffffff;
+    height: 100vh;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+#cabecalho{
+    background-image: linear-gradient(to bottom, #fffacc, #cabc92);
+    padding: 20px;
+    text-align: center;
+}
+.menu{
+    background-color: #542B5C;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left:  20px;
+
+   
+}
+#nav{
+    background-color: #542B5C;
+    text-decoration: none;
+    margin: 0 ;
+    font-weight: bold;
+    color: #3DA535;
+    text-align: center;
+    font-family: "Cherry Cream Soda", system-ui;
+}
+.a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #3DA535;
+    
+}
+.a:hover{
+    color: #287d22;
+    transition: 1s;
+}
+.banner{
+    margin: 0;
+
+}
+.loja-img{
+    width: 200px;
+    display: flex;
+    display: inline-block;
+
+}
+.img-ponta{
+    width: 200px;
+    display: flex;
+    display: inline-block;
+    border-radius: 10px 0px 0px 10px;
+ 
+
+}
+.img-ponta2{
+    width: 200px;
+    display: flex;
+    display: inline-block;
+    border-radius:0px 10px 10px 0px;
+ 
+
+}
+.loja-img:hover, .img-ponta:hover, .img-ponta2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+.logo{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    margin-top: 50px;
+}
+.fila{
+    width: 200px;
+    display: flex;
+    justify-items: center;
+  
+}
+.nossas_casas{
+  transform: translate(345px,70px);
+    
+}
+.hr1{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #542B5C;
+    border-radius: 10px;
+}
+.hr2{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #542B5C;
+    border-radius: 10px;
+    transform: translate(0px, 130px);
+}
+.logo2{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    transform: translate(0px, 130px);
+}
+.hr4{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #542B5C;
+    border-radius: 10px;
+    transform: translate(0px, 130px);
+}
+.hr3{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #542B5C;
+    border-radius: 10px;
+    transform: translate(0px, 120px);
+}
+.bordao{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    transform: translate(0px, 130px);
+    border: #542B5C solid 3px;
+    border-radius: 10px;
+}
+.bordao:hover{
+    transition: 0.5s;
+    box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.5);
+}

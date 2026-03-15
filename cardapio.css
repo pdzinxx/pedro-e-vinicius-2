@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*seletor de tag*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3DA535;
+    background-color:#ffffff;
+    height: 100vh;
+    margin: 0;
+}
+#cabecalho{
+    background-image: linear-gradient(to bottom, #8c4b99, #542B5C);
+    padding: 20px;
+    text-align: center;
+}
+.menu{
+    background-color: #542B5C;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left:  20px;
+
+   
+}
+#nav{
+    background-image: linear-gradient(to top, #ffffff, #542B5C);
+    text-decoration: none;
+    margin: 0 ;
+    font-weight: bold;
+    color: #fffacc;
+    text-align: center;
+    font-family: "Cherry Cream Soda", system-ui;
+}
+.a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #3DA535;
+    
+}
+.a:hover{
+    color: #53f347;
+    transition: 1s;
+}
+.logo{
+    width: 100px;
+    display: flex;
+    display: inline-block;
+    transform: translate(10px,10px);
+}
+.cardapio{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    margin-top: 50px;
+}
+.descricao{
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #542B5C;
+    background-color: #8c4b99;
+    border-radius: 10px;
+    border: 2px solid #542B5C;
+}
+.item-img{
+    width: 200px;
+    display: flex;
+    display: inline-block;
+    border-radius: 10px;
+}
+.item-img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+.button{
+    background-color: #542B5C;
+    border: 2px solid #3DA535;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #3DA535;
+  
+
+  
+}
+.button2{
+    background-color: #542B5C;
+    border: 2px solid #3DA535;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #3DA535;
+
+
+  
+}
+.a{
+   
+}
+.h3{
+    text-align: center;
+    color: #542B5C;     
+    margin-top: 10px;
+}
+.p{
+    text-align: center;
+    color: #542B5C;     
+    
+}
+.logo{
+    width: 300px;
+    display: flex;
+    display: inline-block;
+    transform: translate(800px,10px);
+}
+.div-destaque{
+    background-color: #542B5C;
+    color: #3DA535;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #542B5C;
+    margin: 20px auto;
+    width: 80%;
+}
+.hr{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #542B5C;
+}
+.preco{
+    text-align: center;
+    color: #3DA535;     
+    
+}
+.bordao{  
+    color: #542B5C;     
+    border: 2px solid #542B5C;
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    transform: translate(0px, 0px);
+  
+}
+.bordao:hover{
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+
+}
+
+
+
+    
+
+        
+
